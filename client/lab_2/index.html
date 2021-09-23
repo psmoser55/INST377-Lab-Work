@@ -1,40 +1,65 @@
-YOUR NAME Lab 2: Intro to HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title> Patrick Moser Lab 1: Intro to HTML </title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <h1 class='title'> 
+        Patrick Moser Lab 1: Intro to HTML 
+    </h1>
 
-Selectors
-Main Page
+    <nav> 
+        <a href="selectors.html"> Selectors </a>
+        <a href="index.html"> Main Page </a>
+    </nav>
 
-First, the basics.
+    <h2> First, the basics. </h2>
 
-You need the following to build your website.
+    <p> You need the following to build your website. </p>
 
-HTML and CSS
-Javascript
-Node.js
-And other web development frameworks
+    <div class='section_1'>
+        <ul>
+            <li> HTML and CSS </li>
+            <li> Javascript </li>
+            <li> Node.js </li>
+            <li> And other web development frameworks </li>
+        </ul>
 
-You should list your top 3 goals for the class below.
+        <p> Top 5 favourite albums: </p>
 
-Learn front-end web design
-Learn new programming languages
-Learn how to work with others in a technical space
-Learn popular web dev frameworks
+        <ol>
+            <li> Rockstar - Post Malone </li>
+            <li> Sacred Hearts Club - Foster the People </li>
+            <li> 808s and Heartbreaks - Kanye West </li>
+            <li> To Pimp A Butterfly - Kendrick Lamar </li>
+            <li> LONG.LIVE.A$AP - A$AP Rocky </li>
+        </ol>
+    </div>
 
-Let's Try Some Inline Elements
+    <div class="section_2">
+        <h2> Trying Inline Elements </h2>
 
-Sometimes you want to draw attention to something in a line of text.
+        <p> I want to <em> draw attention to something </em> in this line of text. </p>
+        <p> Next, I want to <strong> strongly emphasize something </strong> by using the strong element. </p>
+        <p> Sometimes I want to <em> <strong> use both of these elements. </em></strong> </p>
+    </div>
 
-Sometimes you want to strongly emphasize something in the text.
+    <h3> Empty Elements </h3>
+    <p> Soft line breaks can't wrap anything. <br/> Neither can image tags, or hard lines. <br/>
+      Add a hard line under here, and break the previous two lines using a soft line break. </p>
+    <hr/>
+    <h2> Images </h2>
+    <p> These are the four mochi images from the tutorial. </p>
+    <div class="slides">
+        <img src='images/onigiri_1.png' width='75' alt='A mochi ball in a bubble'/>
+        <img src='images/onigiri_2.png' width='75' alt='A dancing mochi ball'/>
+        <img src='images/onigiri_3.png' width='75' alt='A mochi ball'/>
+        <img src='images/onigiri_4.png' alt='A mochi ball with Bézier handles'/>
+    </div>
+    <hr/>
+    <p>This is a link to my github <a href='https://github.com/psmoser55/INST377-Lab-Work'>repository</a> for class.</p>
 
-Sometimes you want to do both.
-
-Empty Elements
-
-Soft line breaks can't wrap anything. Neither can image tags, or hard lines.
-Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
-
-Images 
-
-Don't forget to use alt text on your images. It's important for accessibility.
-
-Include a hyperlink here to your github repository for class.
-If you want your repo to be private, be sure to invite Prof A as a "collaborator."
+  </body>
+</html>

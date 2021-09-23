@@ -11,7 +11,7 @@
     text-decoration: none;
     padding: 2px;
   }
-  
+
   a:hover {
     background-color: springgreen;
     display: inline-block;
@@ -60,8 +60,9 @@
     margin-bottom: 5px;
   }
   
+  
   .section_1 {
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
     flex-flow: row wrap;
     background-color: #EFEFEF;
