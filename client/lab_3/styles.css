@@ -98,6 +98,9 @@
     background-color: #D6E9FE;
     height: 200px;
     flex: 1;
+    display: flex;
+    justify-content: center; /* added to make it look better */
+    align-items: center;     /* added to make it look better */
   }
 
   .footer-one,
@@ -110,5 +113,10 @@
   .signup {
       margin-left: auto;
   }
-
   
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .photo-grid {
+        flex-direction: row-reverse;
+    }
+  }
