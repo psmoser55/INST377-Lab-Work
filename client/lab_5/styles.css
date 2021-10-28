@@ -9,10 +9,21 @@ body {
   padding: 0;
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
     ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
-  background-color: darkslategray;
+  background-color: rgb(86, 21, 148);
 }
 
 /* Page Layout */
+.title {
+  display: inline-block;
+  background-color: rgb(212, 199, 112) ;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 15px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
