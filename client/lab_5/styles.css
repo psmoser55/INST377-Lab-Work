@@ -13,17 +13,6 @@ body {
 }
 
 /* Page Layout */
-.title {
-  display: inline-block;
-  background-color: rgb(212, 199, 112) ;
-  border-radius: 4px;
-  padding: 10px;
-  margin: 15px;
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: center;
-}
-
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -36,3 +25,29 @@ body {
   max-width: 960px;
   margin-top: 25px;
 }
+/*
+.title {
+  display: inline-block;
+  background-color: rgb(212, 199, 112) ;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.formBox {
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
+  width: 300px;
+  border-radius: 3px;
+  padding: 30px;
+  margin: 0px;
+}
+
+.otherBox {
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
+  width: 500px;
+  height: 50px;
+}
+*/
